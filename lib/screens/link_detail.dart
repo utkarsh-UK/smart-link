@@ -61,7 +61,7 @@ class LinkDetailScreen extends StatelessWidget {
                 child: CustomAppBar(),
               ),
               const SizedBox(height: 14.0),
-              Container(
+              SizedBox(
                 height: size.height * 0.4,
                 width: size.width,
                 child: const Image(
@@ -134,8 +134,7 @@ class LinkDetailScreen extends StatelessWidget {
                               ),
                             ),
                           ),
-                          separatorBuilder: (_, __) =>
-                              const SizedBox(height: 12.0),
+                          separatorBuilder: (_, __) => const SizedBox(height: 12.0),
                         )
                       ],
                     ),

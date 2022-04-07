@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:fluttericon/font_awesome5_icons.dart';
 import 'package:fluttericon/font_awesome_icons.dart';
 import 'package:smart_link/core/colors.dart';
 
@@ -23,25 +22,25 @@ class CustomBottomBar extends StatelessWidget {
         children: [
           Container(
             padding: const EdgeInsets.all(12.0),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               shape: BoxShape.circle,
               color: primaryDarkColor,
             ),
-            child: Icon(FontAwesome.home, size: 30.0, color: Colors.white70),
+            child: const Icon(FontAwesome.home, size: 30.0, color: Colors.white70),
           ),
           Container(
             padding: const EdgeInsets.all(12.0),
-            decoration: BoxDecoration(
+            decoration: const BoxDecoration(
               shape: BoxShape.circle,
               color: borderColor,
             ),
-            child: Icon(
+            child: const Icon(
               FontAwesome.plus_circled,
               size: 30.0,
               color: Colors.white70,
             ),
           ),
-          Icon(
+          const Icon(
             Icons.grid_view_outlined,
             size: 25.0,
             color: Colors.white70,
